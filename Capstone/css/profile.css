@@ -1,0 +1,149 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.profile-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    -o-border-radius: 20px;
+    /*Membuatgambarprofilmenjadilingkaran*/
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    -o-transition: transform 0.3s ease-in-out;
+    -webkit-transition: transform 0.3s ease-in-out;
+    -moz-transition: transform 0.3s ease-in-out;
+    -ms-transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    object-fit: cover;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.profile-image img:hover {
+    transform: scale(1.1);
+    /* Efek zoom ketika gambar dihover */
+}
+
+.profile-details {
+    padding-left: 20px;
+}
+
+.profile-details h2 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.profile-details p {
+    margin: 5px 0;
+}
+
+a.back-to-main-menu {
+    display: inline-block;
+    text-decoration: none;
+    color: #395B64;
+    font-weight: bold;
+    border: 2px solid #2C3333;
+    border-radius: 5px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    width: fit-content; /* Atur lebar sesuai dengan konten */
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+a.back-to-main-menu:hover {
+    background-color: #5c738c;
+    color: #fff;
+}
+
+
+
+/*detail nilai */
+.semester-details td {
+    text-align: center;
+}
+
+/*dropdown semester */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #A5C9CA;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    -o-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.show {
+    display: block;
+}
+
+
+
+
+/* CSS untuk mengatur jarak antara label dan nilai */
+.label {
+    padding-right: 10px;
+    /* Menambahkan spasi di sebelah kanan label */
+    text-align: left;
+    /* Meletakkan teks label ke kanan */
+    font-weight: bold;
+}
+
+/* CSS untuk mengatur jarak antara nilai dan sisi kanan tabel */
+.value {
+    padding-left: 10px;
+    /* Menambahkan spasi di sebelah kiri nilai */
+    font-weight: bold;
+}

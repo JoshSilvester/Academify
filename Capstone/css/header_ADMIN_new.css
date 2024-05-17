@@ -1,0 +1,72 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #334257; /* Collor palette */
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*header*/
+.menu-table {
+    border-collapse: collapse;
+    width: 35%;
+}
+
+/* .menu-table a{
+    color: aquamarine;
+}
+
+.menu-table a:hover {
+    color: white;
+} */
+
+
+.menu-table td {
+    padding: 8px;
+    text-align: center;
+}
+
+.menu-table td a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu-table td:not(:last-child) {
+    margin-right: 20px; /* Jarak antara item menu */
+}
+
+
+.logo img {
+    width: 60px;
+    margin-left: 50px;
+}
+
+.logout button {
+    /* Gaya untuk tombol */
+    padding: 10px 20px; /* Ruang dalam tombol */
+    background-color: #f44336; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    border: none; /* Hapus batas */
+    border-radius: 4px; /* Buat sudut yang melengkung */
+    cursor: pointer; /* Ubah kursor saat di atas tombol */
+    transition: background-color 0.3s; /* Efek transisi warna latar belakang saat dihover */
+}
+
+.logout button:hover {
+    /* Gaya saat tombol dihover */
+    background-color: #d32f2f; /* Warna latar belakang saat dihover */
+}

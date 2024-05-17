@@ -1,0 +1,50 @@
+#mySpecialTable {
+    width: 90%; /* Lebar tabel 100% dari lebar container */
+    border-collapse: collapse; /* Gabungkan border cell */
+    margin-top: 20px; /* Jarak dari bagian atas */
+    text-align: center; /* Menengahkan konten dalam sel */
+    margin-top: 100px;
+    margin-left: auto; /* Membuat margin kiri otomatis */
+    margin-right: auto; /* Membuat margin kanan otomatis */
+
+}
+
+#mySpecialTable th, #mySpecialTable td {
+    border: 1px solid #ddd; /* Garis batas untuk sel */
+    padding: 8px; /* Ruang di dalam sel */
+    text-align: center; /* Menengahkan konten dalam sel */
+    background-color: white;
+}
+
+#mySpecialTable th {
+    background-color: #f2f2f2; /* Warna latar belakang untuk header */
+    color: black; /* Warna teks untuk header */
+}
+
+
+#mySpecialTable img {
+    width: 90px; /* Lebar gambar */
+    height: auto; /* Tinggi gambar akan menyesuaikan proporsi aslinya */
+}
+
+#mySpecialTable .updateLink {
+    color: #00f; /* Warna tautan "Update" */
+}
+
+#mySpecialTable .deleteLink {
+    color: #f00; /* Warna tautan "Delete" */
+}
+
+#mySpecialTable .updateLink:hover,
+#mySpecialTable .deleteLink:hover {
+    text-decoration: none; 
+    color: rgba(36, 231, 36, 0.295); /* Warna saat dihover */
+}
+
+#mySpecialTable a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #e7f6f2;
+}

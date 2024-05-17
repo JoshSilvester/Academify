@@ -1,0 +1,159 @@
+/* Style CSS */
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.addnewquest_back{
+    display: inline-block;
+    text-decoration: none;
+    color: #395B64;
+    font-weight: bold;
+    border: 2px solid #2C3333;
+    border-radius: 5px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    width: fit-content;
+    margin-left: 30px;
+    margin-top: 110px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.question-container {
+    margin-bottom: 30px;
+    border: 1px solid #ccc; /* Menambahkan garis border dengan warna abu-abu (#ccc) */
+    padding: 20px; 
+}
+
+.question-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.question-container input[type="text"],
+.question-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.question-container textarea {
+    resize: vertical;
+}
+
+.submit_edit {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+}
+
+.submit_edit:hover {
+    background-color: #45a049;
+}
+
+.submit_edit[type="submit"] {
+    background-color: #007bff;
+}
+
+.submit_edit[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.submit_addNEW{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+}
+
+.submit_addNEW:hover {
+    background-color: #45a049;
+}
+
+.submit_addNEW[type="submit"] {
+    background-color: #007bff;
+}
+
+.submit_addNEW[type="submit"]:hover {
+    background-color: #0056b3;
+}
+/* 
+button,
+input[type="submit"] {
+    margin-right: 10px;
+} */
+
+.add-question-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-question-btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* Style CSS */
+.container {
+    max-width: 600px;
+    margin-top: 30px;
+}
+.question-container {
+    margin-bottom: 20px;
+}
+.question-container:not(:first-child) {
+    margin-top: 80px; /* Menambahkan margin atas pada pertanyaan kedua dan seterusnya */
+}
+
+.back-to-listQUEST{
+    display: inline-block;
+    text-decoration: none;
+    color: #395B64;
+    font-weight: bold;
+    border: 2px solid #2C3333;
+    border-radius: 5px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    width: fit-content;
+    margin-left: 30px;
+    margin-top: 100px;
+}

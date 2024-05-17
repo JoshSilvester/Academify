@@ -1,0 +1,93 @@
+/* CSS untuk style tabel */
+html {
+    background-color: #b7ccc6;
+    /* Warna latar belakang abu-abu */
+}
+
+.chapter-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    /* Jarak antara paragraf dan tabel */
+    font-family: 'Roboto', sans-serif;
+    /* Font family Roboto */
+    font-size: 18px;
+    /* Ukuran font */
+}
+
+.chapter-table td {
+    padding: 15px;
+    /* Padding sel dalam tabel */
+    border: 1px solid #ccc;
+    /* Garis tepi sel */
+}
+
+/* CSS untuk mengatur warna latar belakang link saat dihover */
+.chapter-table a:hover {
+    background-color: #f0f0f0;
+}
+
+/* CSS untuk mengatur jarak antara elemen-elemen dalam kontainer */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.box {
+    width: 80%;
+    /* Lebar kotak konten */
+    padding: 20px;
+    /* Padding konten dalam kotak */
+    background-color: #f9f9f9;
+    /* Warna latar belakang kotak */
+    border-radius: 10px;
+    /* Sudut bulat kotak */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Bayangan kotak */
+}
+
+/* Style untuk judul materi */
+.box h2 {
+    font-size: 34px;
+    /* Ukuran font judul */
+    margin-bottom: 40px;
+    /* Jarak bawah judul */
+}
+
+/* Style untuk link ke halaman kuis */
+.box a {
+    display: block;
+    margin-top: 20px;
+    /* Jarak antara tabel dan link */
+    text-align: center;
+    text-decoration: none;
+    color: #007bff;
+    /* Warna teks link */
+    transition: font-size 0.3s;
+    /* Efek transisi pada ukuran font */
+}
+
+/* CSS untuk tautan yang dihasilkan oleh PHP di dalam kelas */
+.back-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #395B64;
+    font-weight: bold;
+    border: 2px solid #2C3333;
+    border-radius: 5px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    width: fit-content;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.back-link:hover {
+    color: #0056b3; /* Warna teks saat dihover */
+}
+
+.backcourse h4 {
+    margin-top: 50px;
+}

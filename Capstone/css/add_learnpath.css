@@ -1,0 +1,113 @@
+/* CSS styles for the container */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+/* CSS styles for the form */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* CSS styles for the button group */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* CSS styles for the buttons */
+.Button-Material {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Button-Material[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Hover effect */
+.Button-Material:hover {
+    filter: brightness(0.9);
+}
+/* add-learnings.css */
+
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group textarea,
+.form-group input[type="file"],
+.form-group input[type="checkbox"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    height: 150px;
+}
+
+.material-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.material {
+    width: calc(20% - 20px); /* Adjust width as needed */
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.material p {
+    margin: 5px 0;
+}
+
+.material:last-child {
+    margin-right: 0;
+}
+
+
+.ADD-path-material-BACK{
+    display: inline-block;
+    text-decoration: none;
+    color: #395B64;
+    font-weight: bold;
+    border: 2px solid #2C3333;
+    border-radius: 5px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    width: fit-content;
+    margin-left: 30px;
+    margin-top: 100px;
+}

@@ -1,0 +1,210 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+/*Tabel course*/
+.path-delete{
+        background-color: #dc3545;
+        color: white;
+    }
+
+.allcontainer {
+    margin-top: 80px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    /* Mengurangi tinggi agar jarak dengan header lebih sedikit */
+    margin-top: 2vh;
+    /* Memberikan margin atas agar jarak dari header lebih sedikit */
+}
+
+.container:first-child {
+    margin-top: 0;
+    /* Hapus margin-top pada container pertama */
+}
+
+.course-box {
+    width: 70%;
+    /* Sesuaikan dengan lebar yang diinginkan */
+    background-color: #fff;
+    padding: 20px;
+    /* Tambahkan padding agar konten tidak terlalu dekat dengan pinggiran box */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    /* Mengatur teks menjadi rata kiri */
+    margin-bottom: 10px;
+    /* Mengurangi jarak di bagian bawah */
+    display: flex;
+    justify-content: space-between  ;
+}
+
+.course-box h1,
+.course-box h3,
+.course-box p {
+    margin-bottom: 10px;
+    /* Berikan ruang antara judul dan paragraf */
+}
+.text-center {
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.material-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.material {
+    flex-basis: calc(20% - 10px);
+    /* Adjust width and margin */
+    margin-bottom: 5px;
+}
+
+.material p {
+    margin: 5px 0;
+}
+
+.form-group button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #45a049;
+}
+
+/* CSS styles for button group */
+.center-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.text-container {
+    flex: 1;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 20px; /* Adjust margin as needed */
+    text-decoration: none ;
+}
+
+.edit-button,
+.path-delete {
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    /*Adjustmarginbetweenbuttons*/border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.edit-button {
+    background-color: #007bff; /* Blue color */
+    color: white;
+}
+
+.delete-button {
+    background-color: #dc3545; /* Red color */
+    color: white;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    filter: brightness(0.9); /* Darken the button on hover */
+}
+
+
+/*back to menu*/
+a.back-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #395B64;
+    font-weight: bold;
+    border: 2px solid #2C3333;
+    border-radius: 5px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    width: fit-content; /* Atur lebar sesuai dengan konten */
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+a.back-link:hover {
+    background-color: #5c738c;
+    color: #fff;
+}
+
+.button-11 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin-top: 50px;
+}
+
+.button-11:hover {
+    background-color: #0056b3; /* Warna latar berubah saat dihover */
+}
+
+.add-chapter {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Mengatur tata letak tombol add chapter ke kanan */
+.add-chapter {
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px; /* Sesuaikan jarak kanan dengan kebutuhan */
+}

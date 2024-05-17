@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/Frontend_admin/css/new_question.css">
+<title>Add New Question</title>
+<style>
+    
+</style>
+</head>
+<body>
+<div class="container">
+    <h2>Add New Question</h2>
+    <form id="question-form">
+        <div id="questions-container">
+            <div class="question-container">
+                <label for="question">New Question:</label>
+                <textarea name="question[]" required></textarea>
+                <label for="optionA">Option A:</label>
+                <input type="text" name="optionA[]" required>
+                <label for="optionB">Option B:</label>
+                <input type="text" name="optionB[]" required>
+                <label for="optionC">Option C:</label>
+                <input type="text" name="optionC[]" required>
+                <label for="optionD">Option D:</label>
+                <input type="text" name="optionD[]" required>
+                <label for="correctAnswer">Correct Answer:</label>
+                <select name="correctAnswer[]" required>
+                    <option value="A">Option A</option>
+                    <option value="B">Option B</option>
+                    <option value="C">Option C</option>
+                    <option value="D">Option D</option>
+                </select>
+            </div>
+        </div>
+        <button type="button" onclick="addQuestion()">Add New Question</button>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+
+<script>
+    // JavaScript
+    function addQuestion() {
+        const questionsContainer = document.getElementById('questions-container');
+        const newQuestionContainer = document.createElement('div');
+        newQuestionContainer.classList.add('question-container');
+        newQuestionContainer.innerHTML = `
+        
+            <label for="question"> New Question:</label>
+            <textarea name="question[]" required></textarea>
+            <label for="optionA">Option A:</label>
+            <input type="text" name="optionA[]" required>
+            <label for="optionB">Option B:</label>
+            <input type="text" name="optionB[]" required>
+            <label for="optionC">Option C:</label>
+            <input type="text" name="optionC[]" required>
+            <label for="optionD">Option D:</label>
+            <input type="text" name="optionD[]" required>
+            <label for="correctAnswer">Correct Answer:</label>
+            <select name="correctAnswer[]" required>
+                <option value="A">Option A</option>
+                <option value="B">Option B</option>
+                <option value="C">Option C</option>
+                <option value="D">Option D</option>
+            </select>
+        `;
+        questionsContainer.appendChild(newQuestionContainer);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.logo a {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: #639286;
+}
+
+/* Menggunakan color palette yang diberikan */
+body {
+    background-color: #e7f6f2;
+    /* Warna background */
+    color: #000;
+    /* Warna teks */
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    flex: 2;
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+.left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Tambahkan kode berikut di bawah .left */
+.left::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(29, 25, 25, 0.8);
+    /* Warna overlay gelap */
+    z-index: 1;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* .logo {
+    margin-bottom: 20px;
+  } */
+
+/* .logo img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+  } */
+
+.login-box {
+    width: 300px;
+    padding: 28px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #a5c9ca;
+    /* Warna background */
+    font-family: "Roboto", sans-serif;
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: calc(30%);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #395b64;
+    /* Warna background */
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 100px;
+    box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.3);
+}
+
+input[type="submit"]:hover {
+    background-color: #547c87;
+    /* Warna background saat hover */
+}
+
+.select-box {
+    position: relative;
+    width: 100%;
+}
+
+.select-box select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.select-box select::after {
+    content: "\25BC";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.select-box select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/*Tabel course*/
+.allcontainer {
+    margin-top: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    /* Mengurangi tinggi agar jarak dengan header lebih sedikit */
+    margin-top: 2vh;
+    /* Memberikan margin atas agar jarak dari header lebih sedikit */
+}
+
+.container:first-child {
+    margin-top: 0;
+    /* Hapus margin-top pada container pertama */
+}
+
+.course-box {
+    width: 70%;
+    /* Sesuaikan dengan lebar yang diinginkan */
+    background-color: #fff;
+    padding: 20px;
+    /* Tambahkan padding agar konten tidak terlalu dekat dengan pinggiran box */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    /* Mengatur teks menjadi rata kiri */
+    margin-bottom: 10px;
+    /* Mengurangi jarak di bagian bawah */
+}
+
+.course-box h1,
+.course-box h3,
+.course-box p {
+    margin-bottom: 10px;
+    /* Berikan ruang antara judul dan paragraf */
+}
+
+.linkBtn {
+    color: #59acff;
+}
+
+/* .course-box a {
+      display: block;
+      text-decoration: none;
+      color: #59acff; 
+      margin-top: 20px; 
+  } */
+
+.course-box a:hover {
+    text-decoration: underline;
+    /* Efek garis bawah saat hover */
+}
+
+.table-container {
+    margin-bottom: 10px;
+    /* Mengurangi jarak di bagian bawah */
+}
+
+table {
+    width: 70%;
+    /* Sesuaikan dengan lebar yang diinginkan */
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+th {
+    background-color: #f2f2f2;
+    /* Warna latar belakang header */
+}
+
+.button-22 {
+    align-items: center;
+    appearance: button;
+    background-color: #0276ff;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    flex-direction: row;
+    flex-shrink: 0;
+    font-family: "RM Neue", sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    padding: 10px 21px;
+    text-align: center;
+    text-transform: none;
+    transition: color 0.13s ease-in-out, background 0.13s ease-in-out,
+        opacity 0.13s ease-in-out, box-shadow 0.13s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    text-decoration: none;
+}
+
+.button-22:active {
+    background-color: #006ae8;
+}
+
+.button-22:hover {
+    background-color: #1c84ff;
+}
+
+.STUDENT-back-style {
+    display: inline-block;
+    text-decoration: none;
+    color: #395B64;
+    font-weight: bold;
+    border: 2px solid #2C3333;
+    border-radius: 5px;
+    padding: 8px 16px;
+    width: fit-content;
+    margin-left: 30px;
+    margin-top: 120px;
+}
+
+.STUDENT-back-style :hover{
+        background-color: #5c738c;
+        color: #fff;
+}
+
+.button-11-student{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin-top: 50px;
+}
+
+h2{
+    text-align: center;
+}

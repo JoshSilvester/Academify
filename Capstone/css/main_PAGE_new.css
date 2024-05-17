@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #e7f6f2;
+}
+
+/* Table styling */
+.main-table {
+    border-collapse: collapse;
+    width: 10%;
+    font-size: larger;
+}
+
+
+.main-table a {
+    text-decoration: none;
+    color: rgb(252, 0, 0);
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.main-table a:hover {
+    color: #ffffff; /* Ganti dengan warna yang diinginkan */
+}
+
+/* Table row styling */
+
+
+/* Table cell styling */
+td {
+     /* Padding around content */
+    text-align: center; /* Center-align text */
+}
+
+
+.logout a {
+    text-decoration: none;}
+
+.logout a:hover{
+    color: #ffffff;
+}
+
+/* Main table */
+.main-table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+    max-width: 1200px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+
+.subject-table {
+    border-collapse: collapse;
+    width: 33.33%;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    border: solid 1px;
+}
+
+.subject-table td {
+    
+    font-size: 20px;
+}
+
+.delete-a {
+    color: #940f06dc;
+}
+
+.subject-table img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 auto 10px;
+    display: block;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Efek gelap pada gambar saat dihover */
+.subject-table img:hover {
+    filter: brightness(70%); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.subject-table::before {
+    /* content: ""; */
+    background: rgba(161, 139, 139, 0.362);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 10px;
+    
+}
+
+/* Center box */
+.center-box {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #548CA8;
+    /*Collorpalette*/padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin-top: 110px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.button-22 {
+    align-items: center;
+    appearance: button;
+    background-color: #0276ff;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    flex-direction: row;
+    flex-shrink: 0;
+    font-family: "RM Neue", sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    padding: 8px 16px;
+    text-align: center;
+    text-transform: none;
+    transition: color 0.13s ease-in-out, background 0.13s ease-in-out,
+    opacity 0.13s ease-in-out, box-shadow 0.13s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    text-decoration: none;
+    
+  }
+  
+  .button-22:active {
+    background-color: #006ae8;
+  }
+  
+  .button-22:hover {
+    background-color: #1c84ff;
+  }
+
+  .learning_path {
+    text-align: center; /* Membuat teks menjadi di tengah */
+    margin-top: 15px;
+}
+
+.learning_path a {
+    color: rgb(0, 153, 173); /* Atur warna teks sesuai dengan warisan dari elemen induk */
+    text-decoration: none; /* Hilangkan dekorasi standar hyperlink */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Efek transisi untuk perubahan warna dan latar belakang */
+}
+
+.learning_path a:hover {
+    color: #0d758d; /* Ganti warna teks saat dihover */
+    background-color: #b1b1b1; /* Tambahkan latar belakang saat dihover */
+}
+/*====================================================================================*/

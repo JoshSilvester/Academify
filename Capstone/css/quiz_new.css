@@ -1,0 +1,152 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background-color: #b7ccc6;
+}
+
+h1 {
+    text-align: center;
+}
+
+.allcontainer {
+    margin-top: 0vh;
+}
+
+.recom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #f0f0f0;
+    /* Mengurangi tinggi agar jarak dengan header lebih sedikit */
+    margin-top: 2vh;
+    /* Memberikan margin atas agar jarak dari header lebih sedikit */
+}
+
+.recom-container:first-child {
+    margin-top: 0;
+    /* Hapus margin-top pada container pertama */
+}
+
+.course-box {
+    width: 70%;
+    /* Sesuaikan dengan lebar yang diinginkan */
+    background-color: #fff;
+    padding: 20px;
+    /* Tambahkan padding agar konten tidak terlalu dekat dengan pinggiran box */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    /* Mengatur teks menjadi rata kiri */
+    margin-bottom: 10px;
+    /* Mengurangi jarak di bagian bawah */
+    margin-top: 10px;
+}
+
+.course-box h1,
+.course-box h3,
+.course-box p {
+    margin-bottom: 10px;
+    /* Berikan ruang antara judul dan paragraf */
+}
+
+.center-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.quiz-container {
+    width: 80%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+.question-container {
+    margin-bottom: 20px;
+}
+
+.question {
+    margin-bottom: 10px;
+}
+
+.options label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.options input[type="radio"] {
+    margin-right: 5px;
+}
+
+.done-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.done-button:active {
+    background-color: #006ae8;
+}
+
+.done-button:hover {
+    background-color: #1c84ff;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.result h2 {
+    font-size: 35px;
+    color: #0056b3;
+}
+
+.label {
+    font-size: 18px;
+    /* Ukuran font untuk kelas label */
+}
+
+.value {
+    font-size: 18px;
+    /* Ukuran font untuk kelas value */
+    font-weight: bold;
+}
+
+.edit_QUESTION{
+    color: #006ae8;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.edit_QUESTION :hover{
+    background-color: #01ffb7;
+}
+
+.delete_QUESTION{
+    color: #f20e0e;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.back-to-menu-Student{
+    text-decoration: none;
+}

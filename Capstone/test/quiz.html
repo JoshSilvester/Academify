@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="center-box">
+        <div class="quiz-container">
+            <h1>QUIZ "JUDUL"</h1>
+            <div class="question-container">
+                <h2>Question 1:</h2>
+                <div class="question">
+                    <p>What is the capital of France?</p>
+                </div>
+                <div class="options">
+                    <label><input type="radio" name="option1" value="a"> a) Paris</label><br>
+                    <label><input type="radio" name="option1" value="b"> b) Rome</label><br>
+                    <label><input type="radio" name="option1" value="c"> c) London</label><br>
+                    <label><input type="radio" name="option1" value="d"> d) Berlin</label><br>
+                </div>
+            </div>
+            <div class="question-container">
+                <h2>Question 2:</h2>
+                <div class="question">
+                    <p>What is the capital of Germany?</p>
+                </div>
+                <div class="options">
+                    <label><input type="radio" name="option2" value="a"> a) Paris</label><br>
+                    <label><input type="radio" name="option2" value="b"> b) Rome</label><br>
+                    <label><input type="radio" name="option2" value="c"> c) Berlin</label><br>
+                    <label><input type="radio" name="option2" value="d"> d) London</label><br>
+                </div>
+            </div>
+            <div class="question-container">
+                <h2>Question 3:</h2>
+                <div class="question">
+                    <p>What is the capital of Italy?</p>
+                </div>
+                <div class="options">
+                    <label><input type="radio" name="option3" value="a"> a) Paris</label><br>
+                    <label><input type="radio" name="option3" value="b"> b) Rome</label><br>
+                    <label><input type="radio" name="option3" value="c"> c) London</label><br>
+                    <label><input type="radio" name="option3" value="d"> d) Berlin</label><br>
+                </div>
+            </div>
+            
+            
+            <!-- Add more question-container divs here for additional questions -->
+            
+            <button id="done-button">Done</button>
+        </div>
+    </div>
+    
+    <script>
+        document.getElementById('done-button').addEventListener('click', function() {
+            if (confirm('Are you sure?')) {
+                // Code to execute if "OK" is pressed in the alert
+                alert('Quiz submitted!');
+            } else {
+                // Code to execute if "Cancel" is pressed in the alert
+                // Optional: Any additional action you may want to perform
+            }
+        });
+    </script>
+</body>
+</html>
